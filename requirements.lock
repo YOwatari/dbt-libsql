@@ -10,6 +10,7 @@
 -e file:.
 agate==1.7.0
     # via dbt-core
+    # via dbt-libsql
 attrs==23.2.0
     # via jsonschema
     # via referencing
