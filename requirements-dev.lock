@@ -28,8 +28,11 @@ colorama==0.4.6
     # via dbt-core
 dbt-core==1.5.11
     # via dbt-libsql
+    # via dbt-sqlite
 dbt-extractor==0.4.1
     # via dbt-core
+dbt-sqlite==1.5.0
+    # via dbt-libsql
 exceptiongroup==1.2.1
     # via pytest
 future==1.0.0

@@ -9,6 +9,7 @@ dependencies = [
     "dbt-core~=1.5.0",
     "libsql-experimental>=0.0.34",
     "agate>=1.6, <1.7.1",
+    "dbt-sqlite~=1.5.0",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
