@@ -5,7 +5,10 @@ description = "Add your description here"
 authors = [
     { name = "Yuta OHWATARI", email = "y.ohwatari@cartahd.com" }
 ]
-dependencies = []
+dependencies = [
+    "dbt-core~=1.5.0",
+    "libsql-experimental>=0.0.34",
+]
 readme = "README.md"
 requires-python = ">= 3.8"
 
@@ -36,7 +39,7 @@ target-version = "py38"
 
 [tool.ruff.lint]
 select = ["ALL"]
-ignore = ["EXE", "T20", "E501", "D203", "D212"]
+ignore = ["ANN101", "ANN102", "EXE", "T20", "E501", "D"]
 
 [tool.ruff.pydocstyle]
 convention = "google"
